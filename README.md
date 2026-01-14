@@ -12,14 +12,14 @@ This project was developed collaboratively by a team using **GitHub feature bran
 ## 📋 Group Details
 
 
-| Sr # | Student Name | GitHub Username | Role (Lead/Member) | Branch Worked On | Verification Screenshots Added (Yes/No) |
-|------|--------------|-----------------|-------------------|------------------|----------------------------------------|
-| 1 | Mohammad Rayan | | Lead | main/develop | |
-| 2 | Muhammad Ahmad | | Member | feature/notices | |
-| 3 | Yasir Iftikhar | | Member | feature/exams | |
-| 4 | Abdul Wahab Subhani | | Member | feature/admissions | |
-| 5 | Kaif Baig | | Member | feature/contact | |
-| 6 | Umar Draz | | Member | feature/events | |
+| Sr # | Student Name | GitHub Username | Role (Lead/Member) | Branch Worked On |
+|------|--------------|-----------------|-------------------|------------------|
+| 1 | Mohammad Rayan | Rayan-0301 | Lead | main/develop |
+| 2 | Muhammad Ahmad | c0llectorr | Member | feature/notices |
+| 3 | Yasir Iftikhar | yasirift259 | Member | feature/exams |
+| 4 | Abdul Wahab Subhani | Abdul-Wahab | Member | feature/admissions |
+| 5 | Kaif Baig | kaifbaig257 | Member | feature/contact |
+| 6 | Umar Draz | umar0251 | Member | feature/events | 
 
 **Group Repository URL:** [https://github.com/DevOps-Fundamentals/uni-notice-board.git]
 
