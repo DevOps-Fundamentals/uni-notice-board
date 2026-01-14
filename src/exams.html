@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exam Schedule</title>
+  <title>Exam Schedule - University Notice Board</title>
   <link rel="stylesheet" href="../styles/style.css">
 </head>
 
@@ -22,9 +22,301 @@
     </nav>
   </header>
 
+  <div class="container">
+    <h1>Examination Schedule & Information</h1>
+    <p class="page-intro">Find all exam-related information including schedules, hall tickets, result dates, and important guidelines for students.</p>
+
+    <!-- Exam Statistics -->
+    <section class="exam-stats">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon">📅</div>
+          <h3>Upcoming Exams</h3>
+          <p class="stat-number">24</p>
+          <p>Next 30 Days</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">📋</div>
+          <h3>Departments</h3>
+          <p class="stat-number">12</p>
+          <p>Active Schedules</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">✅</div>
+          <h3>Results Declared</h3>
+          <p class="stat-number">8</p>
+          <p>This Semester</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">⏰</div>
+          <h3>Next Exam</h3>
+          <p class="stat-number">3</p>
+          <p>Days to Mid-Terms</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Exam Schedule Table -->
+    <section class="exam-schedule">
+      <h2>📝 Mid-Term Examination Schedule - Spring 2026</h2>
+      <div class="schedule-actions">
+        <button class="filter-btn active" data-filter="all">All Exams</button>
+        <button class="filter-btn" data-filter="computer">Computer Science</button>
+        <button class="filter-btn" data-filter="engineering">Engineering</button>
+        <button class="filter-btn" data-filter="business">Business</button>
+        <button class="filter-btn" data-filter="science">Basic Sciences</button>
+      </div>
+      
+      <div class="table-container">
+        <table class="exam-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Course Code</th>
+              <th>Course Name</th>
+              <th>Department</th>
+              <th>Time</th>
+              <th>Venue</th>
+              <th>Hall Ticket</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-department="computer">
+              <td>March 15, 2026</td>
+              <td>CS-301</td>
+              <td>Data Structures & Algorithms</td>
+              <td>Computer Science</td>
+              <td>9:00 AM - 12:00 PM</td>
+              <td>CS Auditorium</td>
+              <td><a href="#" class="btn-download">Download</a></td>
+            </tr>
+            <tr data-department="computer">
+              <td>March 16, 2026</td>
+              <td>CS-302</td>
+              <td>Database Management Systems</td>
+              <td>Computer Science</td>
+              <td>2:00 PM - 5:00 PM</td>
+              <td>CS Lab 1</td>
+              <td><a href="#" class="btn-download">Download</a></td>
+            </tr>
+            <tr data-department="engineering">
+              <td>March 17, 2026</td>
+              <td>EE-201</td>
+              <td>Circuit Theory</td>
+              <td>Electrical Engineering</td>
+              <td>9:00 AM - 12:00 PM</td>
+              <td>Engineering Block A</td>
+              <td><a href="#" class="btn-download">Download</a></td>
+            </tr>
+            <tr data-department="business">
+              <td>March 18, 2026</td>
+              <td>BA-401</td>
+              <td>Business Management</td>
+              <td>Business Administration</td>
+              <td>10:00 AM - 1:00 PM</td>
+              <td>Business Hall</td>
+              <td><a href="#" class="btn-download">Download</a></td>
+            </tr>
+            <tr data-department="science">
+              <td>March 19, 2026</td>
+              <td>MA-101</td>
+              <td>Calculus I</td>
+              <td>Mathematics</td>
+              <td>9:00 AM - 12:00 PM</td>
+              <td>Maths Department</td>
+              <td><a href="#" class="btn-download">Download</a></td>
+            </tr>
+            <tr data-department="engineering">
+              <td>March 20, 2026</td>
+              <td>ME-301</td>
+              <td>Thermodynamics</td>
+              <td>Mechanical Engineering</td>
+              <td>2:00 PM - 5:00 PM</td>
+              <td>Engineering Block B</td>
+              <td><a href="#" class="btn-download">Download</a></td>
+            </tr>
+            <tr data-department="computer">
+              <td>March 21, 2026</td>
+              <td>CS-303</td>
+              <td>Operating Systems</td>
+              <td>Computer Science</td>
+              <td>9:00 AM - 12:00 PM</td>
+              <td>CS Auditorium</td>
+              <td><a href="#" class="btn-download">Download</a></td>
+            </tr>
+            <tr data-department="science">
+              <td>March 22, 2026</td>
+              <td>PH-201</td>
+              <td>Modern Physics</td>
+              <td>Physics</td>
+              <td>2:00 PM - 5:00 PM</td>
+              <td>Physics Lab</td>
+              <td><a href="#" class="btn-download">Download</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Important Exam Guidelines -->
+    <section class="exam-guidelines">
+      <h2>📋 Important Examination Guidelines</h2>
+      <div class="guidelines-grid">
+        <div class="guideline-card">
+          <div class="guideline-icon">🆔</div>
+          <h3>Mandatory Documents</h3>
+          <ul>
+            <li>University ID Card</li>
+            <li>Hall Ticket (Printed)</li>
+            <li>Stationery Kit</li>
+          </ul>
+        </div>
+        <div class="guideline-card">
+          <div class="guideline-icon">⏰</div>
+          <h3>Reporting Time</h3>
+          <ul>
+            <li>Arrive 30 minutes early</li>
+            <li>Late entry not allowed after 30 min</li>
+            <li>No extra time for latecomers</li>
+          </ul>
+        </div>
+        <div class="guideline-card">
+          <div class="guideline-icon">🚫</div>
+          <h3>Prohibited Items</h3>
+          <ul>
+            <li>Mobile Phones</li>
+            <li>Smart Watches</li>
+            <li>Electronic Devices</li>
+          </ul>
+        </div>
+        <div class="guideline-card">
+          <div class="guideline-icon">ℹ️</div>
+          <h3>Important Notes</h3>
+          <ul>
+            <li>No dress code restrictions</li>
+            <li>Carry calculator if allowed</li>
+            <li>Follow COVID protocols</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Exam Results Section -->
+    <section class="exam-results">
+      <h2>📊 Recently Declared Results</h2>
+      <div class="results-grid">
+        <div class="result-card">
+          <h3>Fall 2025 - Final Results</h3>
+          <p class="result-date">Declared: January 5, 2026</p>
+          <p class="result-status">✅ Published</p>
+          <a href="#" class="btn">Check Result</a>
+        </div>
+        <div class="result-card">
+          <h3>Semester 3 - Mid-Terms</h3>
+          <p class="result-date">Declared: December 20, 2025</p>
+          <p class="result-status">✅ Published</p>
+          <a href="#" class="btn">Check Result</a>
+        </div>
+        <div class="result-card">
+          <h3>Makeup Exams 2025</h3>
+          <p class="result-date">Declared: December 10, 2025</p>
+          <p class="result-status">✅ Published</p>
+          <a href="#" class="btn">Check Result</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Emergency Announcements -->
+    <section class="exam-announcements">
+      <h2>🚨 Important Exam Announcements</h2>
+      <div class="announcement-cards">
+        <div class="announcement-card urgent">
+          <h3>Exam Postponement</h3>
+          <p><strong>CS-304:</strong> Software Engineering exam scheduled for March 25 has been postponed to April 2, 2026.</p>
+          <p class="announcement-date">Posted: March 10, 2026</p>
+        </div>
+        <div class="announcement-card">
+          <h3>Hall Ticket Issues</h3>
+          <p>Students facing issues with hall ticket download, contact exam cell at examcell@university.edu or visit Room 101, Admin Block.</p>
+          <p class="announcement-date">Posted: March 8, 2026</p>
+        </div>
+        <div class="announcement-card">
+          <h3>Special Arrangements</h3>
+          <p>Students with disabilities requiring special arrangements must submit requests at least 7 days before exam date.</p>
+          <p class="announcement-date">Posted: March 5, 2026</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="exam-contact">
+      <h2>📞 Examination Cell Contact</h2>
+      <div class="contact-info">
+        <div class="contact-card">
+          <h3>Examination Controller</h3>
+          <p><strong>Dr. James Wilson</strong></p>
+          <p>Email: examcontroller@university.edu</p>
+          <p>Phone: +1 (555) 123-4580</p>
+          <p>Office: Admin Block, Room 205</p>
+        </div>
+        <div class="contact-card">
+          <h3>Exam Schedule Queries</h3>
+          <p><strong>Ms. Sarah Johnson</strong></p>
+          <p>Email: schedule@university.edu</p>
+          <p>Phone: +1 (555) 123-4581</p>
+          <p>Office: Admin Block, Room 206</p>
+        </div>
+        <div class="contact-card">
+          <h3>Result Related Issues</h3>
+          <p><strong>Mr. Robert Chen</strong></p>
+          <p>Email: results@university.edu</p>
+          <p>Phone: +1 (555) 123-4582</p>
+          <p>Office: Admin Block, Room 207</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
   <footer>
     <p>&copy; 2025 University Notice Board</p>
   </footer>
+
+  <script>
+    // Exam Schedule Filtering
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const examRows = document.querySelectorAll('.exam-table tbody tr');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          const filterValue = this.getAttribute('data-filter');
+          
+          examRows.forEach(row => {
+            if (filterValue === 'all' || row.getAttribute('data-department') === filterValue) {
+              row.style.display = '';
+            } else {
+              row.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // Download button alert
+      const downloadButtons = document.querySelectorAll('.btn-download');
+      downloadButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          const courseCode = this.closest('tr').querySelector('td:nth-child(2)').textContent;
+          alert(`Hall ticket for ${courseCode} will be downloaded shortly.`);
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
