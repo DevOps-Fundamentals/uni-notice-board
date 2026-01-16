@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Notices</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="notices.html" class="active">Notices</a></li>
+        <li><a href="exams.html">Exams</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="notice-board">
+      <h1>University Notice Board</h1>
+      <h2>Latest Academic Notices</h2>
+      <ul class="notices-list">
+        <li><span class="date">2026-01-10</span> <span class="desc">Spring semester registration opens next week.</span></li>
+        <li><span class="date">2026-01-08</span> <span class="desc">Final exam schedule published for all departments.</span></li>
+        <li><span class="date">2026-01-05</span> <span class="desc">Guest lecture on AI Ethics, register by Jan 15.</span></li>
+        <li><span class="date">2026-01-02</span> <span class="desc">Library will be closed on Jan 20 for maintenance.</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 University Notice Board</p>
+  </footer>
+
+  <style>
+    .notice-board {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #f8fafc;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+      padding: 32px 24px;
+    }
+    .notice-board h1 {
+      color: #1e293b;
+      font-size: 2.3rem;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .notice-board h2 {
+      color: #2563eb;
+      margin-bottom: 18px;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .notices-list {
+      list-style: none;
+      padding: 0;
+    }
+    .notices-list li {
+      background: #e0e7ff;
+      margin-bottom: 16px;
+      padding: 18px 20px;
+      border-radius: 7px;
+      box-shadow: 0 1px 4px rgba(37, 99, 235, 0.07);
+      font-size: 1.08rem;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .notices-list .date {
+      font-weight: bold;
+      color: #475569;
+      min-width: 90px;
+    }
+    .notices-list .desc {
+      color: #334155;
+    }
+  </style>
+</body>
+
+</html>
