@@ -1,0 +1,14 @@
+name: cd-wf
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  deploy-dev-job:
+    runs-on: ubuntu-latest
+    environment: "development"
+    steps:
+      - name: Welcome To Dev-CD
+        run: echo "Your App Is Going to Be deployed at Render.com"
+      - name: Deploy App
+        run: curl -X POST ${{secrets.RENDER_CALLBACK_URL}}
